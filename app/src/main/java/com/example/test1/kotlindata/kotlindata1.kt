@@ -5,8 +5,8 @@ import kotlin.random.Random
 
 val PI1: Double=3.14
 fun main() {
-    testdata()
-    //teststring()
+    //testdata()
+    teststring()
     //testarray()
     //InitOrderDemo("hayden")
     //usertest12()

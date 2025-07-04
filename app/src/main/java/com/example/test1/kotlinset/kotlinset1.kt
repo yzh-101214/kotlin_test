@@ -4,9 +4,9 @@ import kotlin.random.Random
 
 
 fun main() {
-  /*  ktset()
-    ktlist()*/
-    ktmap()
+    ktset()
+   // ktlist()
+   // ktmap()
   /*  ktarray()
     val java=javaset1()
     java.main()
@@ -57,8 +57,13 @@ fun ktlist(){
 
 fun ktset(){
     //不可变有序集合
-    val set1=setOf<String>("google","")
+    val set1=setOf<String>("google","xunlei","tencent")
     val nullset=setOfNotNull("google",5,"tencent")
+   for(i in set1.indices)
+   {
+       println(i)
+   }
+    
     println(nullset.toString())
 }
 
